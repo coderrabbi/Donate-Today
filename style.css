@@ -1,0 +1,101 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero__section {
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url(./images/Rectangle\ 237.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 70vh; */
+  padding: 150px 0;
+  color: #fff;
+}
+.hero__section-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.hero__section h1 {
+  font-size: 65px;
+}
+button.btn {
+  width: 160px;
+  margin: 0 auto;
+  appearance: auto;
+  border: none;
+  font-size: 20px;
+  padding: 16px 12px;
+  background: #ff5959;
+  color: #fff;
+  border-radius: 5px;
+}
+.hero__section-content p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.donate__section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 80px;
+  align-items: center;
+}
+.donate__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.donate__content h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.donate__content p {
+  text-align: center;
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+  line-height: 28px;
+}
+.donateable__taka {
+  padding: 43px 25px;
+  background: #fafafa;
+  border-radius: 5px;
+  color: #707070;
+  margin-right: 25px;
+}
+.special_donate {
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  padding: 45px 23px;
+  color: #ff5959;
+  margin-right: 25px;
+}
+.donate__amount {
+  display: flex;
+  font-size: 18px;
+}
+.donate__input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.enter__amount {
+  width: 765px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid #dadada;
+}
+
+.enter__amount:focus {
+  border: none !important;
+  border-bottom: 1px solid #dadada !important;
+  outline: none;
+}
