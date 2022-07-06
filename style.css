@@ -99,3 +99,117 @@ button.btn {
   border-bottom: 1px solid #dadada !important;
   outline: none;
 }
+.donate__plan-card {
+  display: flex;
+  padding: 50px 100px;
+}
+.donate__single-card {
+  border-radius: 5px;
+  padding: 50px;
+  margin-right: 25px;
+}
+.donate__single-card h1 {
+  font-size: 24px;
+  padding: 20px 0;
+}
+.donate__single-card p {
+  font-size: 16px;
+  color: #707070;
+  line-height: 24px;
+}
+.first__card {
+  background: rgba(79, 157, 166, 0.1);
+}
+.secound__card {
+  background: rgba(255, 89, 89, 0.1);
+}
+.third__card {
+  background: #fff4d6;
+}
+
+.contribute__section {
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+}
+.contribute__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contribute__ing {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.contribute__content h1 {
+  font-size: 45px;
+}
+.contribute__content p {
+  color: #707070;
+  font-size: 18px;
+}
+.contribute__btn {
+  width: 250px !important;
+  margin: 0 0 !important;
+}
+.newsletter__section {
+  width: 45%;
+  margin: 0 auto;
+  display: flex;
+  padding: 76px 150px;
+  justify-content: center;
+  background: #fff4d6;
+  margin-top: 50px;
+}
+.email__input input {
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  appearance: auto;
+  outline: none;
+  border: none;
+  width: 250px;
+  padding: 20px;
+  font-size: 16px;
+}
+.subscribe__btn button {
+  padding: 20px;
+  outline: none;
+  border: none;
+  width: 150px;
+  background: #ff5959;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 16px;
+}
+.footer {
+  padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #0b0d17;
+  align-items: center;
+  margin-top: 100px;
+}
+.footer h1 {
+  color: #ff5959;
+}
+.footer span {
+  color: #fff;
+}
+.our__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  background: bisque;
+  padding: 30px 0;
+  margin: 50px 0;
+}
+.brand__img img {
+  margin-right: 25px;
+}
+.our__brand-content h1 {
+  font-size: 45px;
+}
